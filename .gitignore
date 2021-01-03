@@ -23,9 +23,3 @@
 hs_err_pid*
 /.idea/
 out/
-src/main/java/ru/gothmog/ws/controller/
-src/main/java/ru/gothmog/ws/service/
-src/test/java/ru/gothmog/ws/dao/
-target/
-web/WEB-INF/pages/
-web/static/
