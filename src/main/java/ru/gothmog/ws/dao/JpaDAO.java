@@ -21,4 +21,11 @@ public class JpaDAO<T> {
         entityManager.getTransaction().commit();
         return t;
     }
+
+    public T update(T t){
+        entityManager.getTransaction().begin();
+        t = entityManager.merge(t);
+        entityManager.getTransaction().commit();
+        return t;
+    }
 }
